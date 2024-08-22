@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">App Conceptos Base</string>
+    <string name="titulo">Bienvenido</string>
+    <string name="nom_user">Ingresa tu nombre</string>
+    <string name="exit">Salir</string>
+    <string name="send">Enviar</string>
 </resources>
