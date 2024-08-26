@@ -6,4 +6,50 @@
     </style>
 
     <style name="Theme.AppConceptosBase" parent="Base.Theme.AppConceptosBase" />
+
+    <style name="contenedorPrincipal">
+        <item name="android:layout_marginBottom">30dp</item>
+    </style>
+
+    <style name="tituloBanner">
+        <item name="android:background">@color/btnprimario</item>
+        <item name="android:textColor">@color/tituloSecundario</item>
+        <item name="android:textSize">33sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tituloPrincipal">
+        <item name="android:textColor">@color/tituloPrimario</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="alertaPrincipal">
+        <item name="android:textColor">@color/alerta</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+
+    </style>
+
+    <style name="inputPrincipal">
+        <item name="android:padding">10dp</item>
+        <item name="android:textColorHint">@color/ingresoDatosTexto</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="botonPrimario">
+        <item name="android:radius">10dp</item>
+        <item name="android:backgroundTint">@color/btnprimario</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="botonSecundario">
+        <item name="android:radius">10dp</item>
+        <item name="android:backgroundTint">@color/btnsecundario</item>
+        <item name="android:textSize">20sp</item>
+    </style>
 </resources>

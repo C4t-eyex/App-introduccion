@@ -1,7 +1,18 @@
 <resources>
     <string name="app_name">App Conceptos Base</string>
-    <string name="titulo">Bienvenido</string>
+    <string name="tituloBanner">Inicio</string>
+    <string name="tituloPrincipal">Registro usuario</string>
+
+    <string name="alertaPrincipal">Completa todos los campos</string>
+
     <string name="nom_user">Ingresa tu nombre</string>
+    <string name="ape_user">Ingresa tu apellido</string>
+    <string name="doc_user">Ingresa tu documento</string>
+    <string name="age_user">Ingresa tu edad</string>
+    <string name="tel_user">Ingresa tu telefono</string>
+    <string name="ciu_user">Ingresa tu ciudad</string>
+
     <string name="exit">Salir</string>
     <string name="send">Enviar</string>
+    <string name="show">Ver</string>
 </resources>

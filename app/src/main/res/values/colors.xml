@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <color name="inicio">#feca38</color>
+    <color name="fondo">#fef3c3</color>
+
+    <color name="tituloPrimario">#421a06</color>
+    <color name="tituloSecundario">#fef3c3</color>
+
+    <color name="alerta">#357ded</color>
+
+    <color name="ingresoDatosFondo">#fefae8</color>
+    <color name="ingresoDatosTexto">#421a06</color>
+
+    <color name="btnprimario">#d97a06</color>
+    <color name="btnsecundario">#78360f</color>
 </resources>
+

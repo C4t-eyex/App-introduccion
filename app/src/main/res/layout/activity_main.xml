@@ -6,59 +6,171 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/fondo"
     tools:context=".MainActivity">
+
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
 
         <TextView
-            android:id="@+id/txvUsuario"
-            android:text="@string/titulo"
+            android:id="@+id/txvInicio"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/tituloBanner"
+            android:textColor="#FFFDE7"
+            android:theme="@style/tituloBanner">
 
         </TextView>
 
-        <EditText
-            android:id="@+id/editarUsuario"
-            android:hint="@string/nom_user"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-        </EditText>
     </LinearLayout>
 
     <LinearLayout
+        android:background="@drawable/shape_contenedor"
+        android:radius="80dp"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:theme="@style/contenedorPrincipal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp">
+
+            <TextView
+                android:id="@+id/txvTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="70dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_bordes"
+                android:padding="4dp"
+                android:text="@string/tituloPrincipal"
+                android:theme="@style/tituloPrincipal">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/nombreUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_input_redondeado"
+                android:hint="@string/nom_user"
+                android:minHeight="48dp"
+                android:theme="@style/inputPrincipal">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/apellidoUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_input_redondeado"
+                android:hint="@string/ape_user"
+                android:minHeight="48dp"
+                android:theme="@style/inputPrincipal">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/documentoUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_input_redondeado"
+                android:hint="@string/doc_user"
+                android:minHeight="48dp"
+                android:theme="@style/inputPrincipal">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/edadUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_input_redondeado"
+                android:hint="@string/age_user"
+                android:minHeight="48dp"
+                android:theme="@style/inputPrincipal">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/telefonoUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_input_redondeado"
+                android:hint="@string/tel_user"
+                android:minHeight="48dp"
+                android:theme="@style/inputPrincipal">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/ciudadUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_input_redondeado"
+                android:hint="@string/ciu_user"
+                android:minHeight="48dp"
+                android:theme="@style/inputPrincipal">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/txvInformacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="@string/alertaPrincipal"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:theme="@style/alertaPrincipal"
+                tools:ignore="TextSizeCheck">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnSalir"
-            android:text="@string/exit"
             android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:layout_height="wrap_content">
+            android:text="@string/exit"
+            android:theme="@style/botonPrimario"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="20dp">
 
         </Button>
 
         <Button
             android:id="@+id/btnEnviar"
-            android:text="@string/send"
             android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:layout_height="wrap_content">
+            android:text="@string/show"
+            android:theme="@style/botonSecundario"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp">
+
         </Button>
 
-
     </LinearLayout>
-
-
-
 
 
 </LinearLayout>
