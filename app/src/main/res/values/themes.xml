@@ -8,7 +8,11 @@
     <style name="Theme.AppConceptosBase" parent="Base.Theme.AppConceptosBase" />
 
     <style name="contenedorPrincipal">
-        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="contenedorSecundario">
+        <item name="android:layout_marginBottom">10dp</item>
     </style>
 
     <style name="tituloBanner">
@@ -28,11 +32,28 @@
         <item name="android:textStyle">italic</item>
     </style>
 
-    <style name="alertaPrincipal">
-        <item name="android:textColor">@color/alerta</item>
+    <style name="alertaNormal">
+        <item name="android:textColor">@color/alertaNormal</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">20dp</item>
+    </style>
 
+    <style name="alertaBad">
+        <item name="android:textColor">@color/alertaBad</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="alertaGood">
+        <item name="android:textColor">@color/alertaGood</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="informacionPrincipal">
+        <item name="android:textColor">@color/informacion</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
     </style>
 
     <style name="inputPrincipal">
@@ -50,6 +71,12 @@
     <style name="botonSecundario">
         <item name="android:radius">10dp</item>
         <item name="android:backgroundTint">@color/btnsecundario</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="botonTerciario">
+        <item name="android:radius">10dp</item>
+        <item name="android:backgroundTint">@color/btnterciario</item>
         <item name="android:textSize">20sp</item>
     </style>
 </resources>

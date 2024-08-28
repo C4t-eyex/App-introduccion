@@ -29,16 +29,16 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:background="@drawable/shape_contenedor"
         android:radius="80dp"
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp">
 
         <LinearLayout
             android:theme="@style/contenedorPrincipal"
+            android:layout_centerInParent="true"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -124,24 +124,22 @@
             </EditText>
 
             <TextView
-                android:id="@+id/txvInformacion"
+                android:id="@+id/txvAlerta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="6dp"
                 android:text="@string/alertaPrincipal"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:theme="@style/alertaPrincipal"
-                tools:ignore="TextSizeCheck">
+                android:theme="@style/alertaNormal">
 
             </TextView>
 
         </LinearLayout>
 
-    </LinearLayout>
+    </RelativeLayout>
 
     <LinearLayout
-        style="?android:attr/buttonBarStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -163,7 +161,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="@string/show"
+            android:text="@string/send"
             android:theme="@style/botonSecundario"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="20dp">

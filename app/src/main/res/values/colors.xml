@@ -7,12 +7,17 @@
     <color name="tituloPrimario">#421a06</color>
     <color name="tituloSecundario">#fef3c3</color>
 
-    <color name="alerta">#357ded</color>
+    <color name="alertaNormal">#357ded</color>
+    <color name="alertaBad">#f25f57</color>
+    <color name="alertaGood">#1eb442</color>
+
+    <color name="informacion">#000000</color>
 
     <color name="ingresoDatosFondo">#fefae8</color>
     <color name="ingresoDatosTexto">#421a06</color>
 
     <color name="btnprimario">#d97a06</color>
     <color name="btnsecundario">#78360f</color>
+    <color name="btnterciario">#f25f57</color>
 </resources>
 

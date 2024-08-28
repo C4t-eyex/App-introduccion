@@ -2,6 +2,7 @@
     <string name="app_name">App Conceptos Base</string>
     <string name="tituloBanner">Inicio</string>
     <string name="tituloPrincipal">Registro usuario</string>
+    <string name="tituloSecundario">Informacion del usuario</string>
 
     <string name="alertaPrincipal">Completa todos los campos</string>
 
@@ -14,5 +15,7 @@
 
     <string name="exit">Salir</string>
     <string name="send">Enviar</string>
+    <string name="back">Regresar</string>
     <string name="show">Ver</string>
+
 </resources>
