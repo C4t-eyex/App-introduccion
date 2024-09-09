@@ -60,23 +60,35 @@
         <item name="android:padding">10dp</item>
         <item name="android:textColorHint">@color/ingresoDatosTexto</item>
         <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/informacion</item>
     </style>
 
     <style name="botonPrimario">
         <item name="android:radius">10dp</item>
         <item name="android:backgroundTint">@color/btnprimario</item>
         <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/fondo</item>
     </style>
 
     <style name="botonSecundario">
         <item name="android:radius">10dp</item>
         <item name="android:backgroundTint">@color/btnsecundario</item>
         <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/fondo</item>
     </style>
 
     <style name="botonTerciario">
         <item name="android:radius">10dp</item>
         <item name="android:backgroundTint">@color/btnterciario</item>
         <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/fondo</item>
+    </style>
+
+    <style name="botonIntent">
+        <item name="android:radius">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorLink">@color/fondo</item>
+        <item name="android:textColorHint">@color/fondo</item>
+
     </style>
 </resources>

@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
                             startActivity(enviarDatos);
                         }
-                    }, 3000); // 3000 milisegundos = 3 segundos
+                    }, 2000); // 3000 milisegundos = 3 segundos
                 } else {
                     alerta.setTextColor(getResources().getColor(R.color.alertaBad));
                     alerta.setText("¡Falta llenar campos!");

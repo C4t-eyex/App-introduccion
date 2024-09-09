@@ -19,40 +19,82 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:layout_marginHorizontal="10dp"
-            android:background="@drawable/shape_contenedor"
-            android:orientation="vertical"
-            android:theme="@style/contenedorSecundario">
-
-            <TextView
-                android:id="@+id/txvTitulo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginTop="15dp"
-                android:background="@drawable/shape_bordes"
-                android:padding="4dp"
-                android:text="@string/tituloSecundario"
-                android:theme="@style/tituloPrincipal">
-
-            </TextView>
-
-            <TextView
-                android:id="@+id/txvInformacion"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="6dp"
-                android:text="@string/alertaPrincipal"
-                android:textAlignment="center"
-                android:textStyle="bold"
-                android:theme="@style/informacionPrincipal">
-
-            </TextView>
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/shape_contenedor"
+                android:orientation="vertical"
+                android:theme="@style/contenedorSecundario">
+
+                <TextView
+                    android:id="@+id/txvTitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/shape_bordes"
+                    android:padding="4dp"
+                    android:text="@string/tituloSecundario"
+                    android:theme="@style/tituloPrincipal">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txvInformacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:text="@string/alertaPrincipal"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:theme="@style/informacionPrincipal">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnLlamada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/call"
+                    android:theme="@style/botonIntent"
+                    android:backgroundTint="@color/btnllamada"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btnContacto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add"
+                    android:theme="@style/botonIntent"
+                    android:backgroundTint="@color/btncontacto"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp">
+
+                </Button>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
 
                 <Button
                     android:id="@+id/btnRegresar"
@@ -65,9 +107,12 @@
 
                 </Button>
 
+
             </LinearLayout>
 
+
         </LinearLayout>
+
 
     </RelativeLayout>
 

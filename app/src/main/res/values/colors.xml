@@ -19,5 +19,9 @@
     <color name="btnprimario">#d97a06</color>
     <color name="btnsecundario">#78360f</color>
     <color name="btnterciario">#f25f57</color>
+
+    <color name="btnllamada">#15a438</color>
+    <color name="btncontacto">#2d68e3</color>
+
 </resources>
 

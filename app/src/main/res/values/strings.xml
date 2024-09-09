@@ -17,5 +17,7 @@
     <string name="send">Enviar</string>
     <string name="back">Regresar</string>
     <string name="show">Ver</string>
+    <string name="call">Llamar</string>
+    <string name="add">Agregar contacto</string>
 
 </resources>
